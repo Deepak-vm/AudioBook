@@ -191,7 +191,7 @@ page4.pack(pady=100)
 
 #page5
 page5 = tk.Frame(main_frame)
-# image2 = Image.open("C:\\Users\\HP\\Downloads\\jklulogo.jpeg")
+# image2 = Image.open("")
 # imageResized = image2.resize((200, 200), Image.ANTIALIAS)
 # image2 = ImageTk.PhotoImage(imageResized)
 
@@ -202,7 +202,6 @@ page5 = tk.Frame(main_frame)
 page5_lb1  = tk.Label(page5 , text="FSM PROJECT" , font=('Bold', 20) )
 page5_lb2  = tk.Label(page5 , text="SUBMITTED BY :- " , font=('Bold', 20) )
 page5_lb3  = tk.Label(page5 , text="DEEPAK VISHWAKARMA (2022btech027)" , font=('Bold', 15) )
-page5_lb4  = tk.Label(page5 , text="KUSHAL SANGAVAT (2022btech052)" , font=('Bold', 15))
 page5_lb1.pack()
 
 page5_lb2.pack()
